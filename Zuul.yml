@@ -1,5 +1,7 @@
+#服务器的端口号
 server.port: 3456
 
+#zuul代理设置
 zuul:
   routes:
     UserCenter:
