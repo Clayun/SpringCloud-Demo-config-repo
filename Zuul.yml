@@ -4,6 +4,6 @@ server.port: 3456
 #zuul代理设置
 zuul:
   routes:
-    UserCenter:
+    RibbonEureka:
       path: /user/**
-      stripPrefix: false
+      serviceId: RibbonEureka
